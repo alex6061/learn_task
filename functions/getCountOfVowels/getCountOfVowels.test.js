@@ -1,0 +1,1 @@
+import {getCountOfVowels} from './getCountOfVowels.js';
