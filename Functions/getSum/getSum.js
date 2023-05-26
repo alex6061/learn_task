@@ -7,6 +7,7 @@
  */
 
 export const getSum = (arg1, arg2) => {
+  
   const isValidArg1 = typeof arg1 === 'number' && 
     arg1 > 0 && 
     Number.isInteger(arg1);
