@@ -1,18 +1,24 @@
-/**
+/** 
  * @function getSpliting
- * @param {string | number} arg1 
- * @param {string | number} arg2 
- * @returns {number}
+ * @param {number} arg1 
+ * @param {number} arg2 
+ * @returns {number | undefined}
  */
 
 export const getSpliting = (arg1, arg2) => {
-  if (typeof arg1 !== 'number' || typeof arg2 !==  'number') return undefined;
+  const isValidArg1 = typeof arg1 === 'number' && 
+  arg1 > 0 && 
+  Number.isInteger(arg1);
 
-  if (arg1 <= 0 || arg2 <= 0) return undefined;
+  const isValidArg2 = typeof arg2 === 'number' &&
+  arg2 > 0 &&
+  Number.isInteger(arg2);
 
-  if (arg1 < arg2) return undefined
+  const result = arg1/arg2
+  
+  if (!isValidArg1 || !isValidArg2) return;
 
-  if (!Number.isInteger(arg1/arg2)) return undefined;
+  if (!Number.isInteger(result)) return;
 
-  return  arg1 / arg2
-}
+  return  arg1 / arg2;
+};
