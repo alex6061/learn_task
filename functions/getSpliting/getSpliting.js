@@ -14,7 +14,7 @@ export const getSpliting = (arg1, arg2) => {
   arg2 > 0 &&
   Number.isInteger(arg2);
 
-  const result = arg1/arg2
+  const result = arg1/arg2;
   
   if (!isValidArg1 || !isValidArg2) return;
 
