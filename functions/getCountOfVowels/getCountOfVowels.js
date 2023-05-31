@@ -10,6 +10,7 @@ export const getCountOfVowels = (str) => {
   let result = 0;
 
   for (const char of toLowerStr) {
-    if (vowels.includes(char)) ++result
-  } return result;
+    if (vowels.includes(char)) ++result;
+  }; 
+  return result;
 };
