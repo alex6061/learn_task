@@ -20,12 +20,6 @@ getCountOfVowels
 
 Формат вызова:
 
-getCountOfVowels('Audio');
-
----------------------------------------
-
-Возврат функции:
-
-4
-
-••••••••••••••••••••••••••••••••••••••••
+console.log(getCountOfVowels('Audio'));// === 4
+console.log(getCountOfVowels('Hellow'));// === 2
+console.log(getCountOfVowels('Frontend'));// === 2
