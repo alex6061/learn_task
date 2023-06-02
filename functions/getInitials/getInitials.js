@@ -1,7 +1,7 @@
 /**
  * @function getInitials
  * @param {string} name 
- * @returns {string | undefined}
+ * @returns {string}
  */
 
 // export const getInitials = (name) => {
