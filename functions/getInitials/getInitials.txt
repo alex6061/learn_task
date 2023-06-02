@@ -1,7 +1,7 @@
-Напишите функцию для преобразования имени в инициалы. 
+Напишите функцию getInitials для преобразования имени в инициалы. 
 На выходе должны быть две заглавные буквы с точкой, разделяющей их.
 
 Вывод функции
 
-console.log(name('Sam Harris'))//S.H
-console.log(name('patrick feeney'))//P.F
+console.log(getInitials('Sam Harris'))//S.H
+console.log(getInitials('patrick feeney'))//P.F
