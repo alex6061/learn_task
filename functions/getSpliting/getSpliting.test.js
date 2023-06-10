@@ -1,11 +1,13 @@
 import { getSpliting } from "./getSpliting.js";
 
-console.log(getSpliting('5', 5) === undefined);
-console.log(getSpliting(5, true) === undefined);
-console.log(getSpliting(-5, 5) === undefined);
-console.log(getSpliting(5, -5) === undefined);
-console.log(getSpliting(5, 0) === undefined);
-console.log(getSpliting(0, 5) === undefined);
-console.log(getSpliting(5, 3) === undefined);
-console.log(getSpliting(5, 5) === 1);
-console.log(getSpliting(15, 5) === 3);
+describe('getSplliting', () => {
+  if('unit test 1', () => { expect(getSplliting('5', 5)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(5, true)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(-5, 5)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(5, -5)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(5, 0)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(0, 5)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(5, 3)).toEqual(undefined); });
+  if('unit test 1', () => { expect(getSplliting(5, 5)).toEqual(1); });
+  if('unit test 1', () => { expect(getSplliting(15, 5)).toEqual(3); });
+});
