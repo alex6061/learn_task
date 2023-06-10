@@ -1,11 +1,11 @@
 /** 
- * @function getSpliting
+ * @function getSplitting
  * @param {number} arg1 
  * @param {number} arg2 
  * @returns {number | undefined}
  */
 
-export const getSpliting = (arg1, arg2) => {
+export const getSplitting = (arg1, arg2) => {
   const isValidArg1 = typeof arg1 === 'number' && 
   arg1 > 0 && 
   Number.isInteger(arg1);
