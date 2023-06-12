@@ -11,6 +11,3 @@ describe('getSplitting', () => {
   it('unit test 1', () => { expect(getSplitting(5, 5)).toEqual(1); });
   it('unit test 1', () => { expect(getSplitting(15, 5)).toEqual(3); });
 });
-
-
-
